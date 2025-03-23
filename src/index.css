@@ -58,7 +58,6 @@ body {
   box-sizing: border-box; 
   display: flex;
   resize: none;
-  min-height: 500px;
   height: 100%;
   width: 100%;
 }
@@ -85,4 +84,21 @@ blockquote{
   margin: 10px auto;
   padding: 15px;
   text-indent: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+  #app{
+    height: 100vh;
+    width: 100%;
+    flex-direction: column;
+  }
+
+  #left-side, #right-side{
+    width: 85%;
+  }
+
+  #editor,  #preview{
+    min-height: inherit;
+    height: 40vh;
+  }
 }
