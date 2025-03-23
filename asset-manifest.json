@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/markdown-previewer/static/css/main.c621023b.css",
+    "main.js": "/markdown-previewer/static/js/main.bdb4fb30.js",
+    "static/media/computer09_obaasan.png": "/markdown-previewer/static/media/computer09_obaasan.362deaa97659bda42c68.png",
+    "index.html": "/markdown-previewer/index.html",
+    "main.c621023b.css.map": "/markdown-previewer/static/css/main.c621023b.css.map",
+    "main.bdb4fb30.js.map": "/markdown-previewer/static/js/main.bdb4fb30.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c621023b.css",
+    "static/js/main.bdb4fb30.js"
+  ]
+}
